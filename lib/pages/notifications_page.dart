@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class SettingsPage extends StatelessWidget {
-  const SettingsPage({super.key});
+class NotificationsPage extends StatelessWidget {
+  const NotificationsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Settings',
+          'Notifications',
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),
@@ -19,12 +19,12 @@ class SettingsPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Icon(
-              Icons.settings,
+              Icons.notifications,
               size: 80,
             ),
             const SizedBox(height: 20),
             const Text(
-              'Settings Page',
+              'Notifications Page',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

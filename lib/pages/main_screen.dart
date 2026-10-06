@@ -36,9 +36,9 @@ class _MainScreenState extends State<MainScreen> {
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.settings),
+            icon: const Icon(Icons.notifications),
             onPressed: () {
-              Navigator.pushNamed(context, AppRoutes.settings);
+              Navigator.pushNamed(context, AppRoutes.notifications);
             },
           ),
         ],
